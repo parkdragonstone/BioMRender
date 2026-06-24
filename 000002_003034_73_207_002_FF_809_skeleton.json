@@ -1,0 +1,336 @@
+{
+  "markerColor": "#2ecc71",
+  "skeletonColor": "#2ecc71",
+  "markerColors": {
+    "LELB": "#3a87f0",
+    "LFIN": "#3a87f0",
+    "LFRM": "#3a87f0",
+    "LMELB": "#3a87f0",
+    "LUPA": "#3a87f0",
+    "LWRA": "#3a87f0",
+    "LWRB": "#3a87f0",
+    "LSHO": "#3a87f0",
+    "RELB": "#ff5d6c",
+    "RFIN": "#ff5d6c",
+    "RFRM": "#ff5d6c",
+    "RMELB": "#ff5d6c",
+    "RWRA": "#ff5d6c",
+    "RWRB": "#ff5d6c",
+    "RSHO": "#ff5d6c",
+    "RUPA": "#ff5d6c",
+    "LANK": "#3a87f0",
+    "LHEE": "#3a87f0",
+    "LKNE": "#3a87f0",
+    "LMANK": "#3a87f0",
+    "LMKNE": "#3a87f0",
+    "LTHI": "#3a87f0",
+    "LTIB": "#3a87f0",
+    "LTOE": "#3a87f0",
+    "RANK": "#ff5d6c",
+    "RHEE": "#ff5d6c",
+    "RKNE": "#ff5d6c",
+    "RMANK": "#ff5d6c",
+    "RMKNE": "#ff5d6c",
+    "RTHI": "#ff5d6c",
+    "RTIB": "#ff5d6c",
+    "RTOE": "#ff5d6c"
+  },
+  "connections": [
+    [
+      "LBHD",
+      "RFHD"
+    ],
+    [
+      "RFHD",
+      "RBHD"
+    ],
+    [
+      "RBHD",
+      "LFHD"
+    ],
+    [
+      "LFHD",
+      "RFHD"
+    ],
+    [
+      "LFHD",
+      "LBHD"
+    ],
+    [
+      "LBHD",
+      "RBHD"
+    ],
+    [
+      "C7",
+      "CLAV"
+    ],
+    [
+      "CLAV",
+      "STRN"
+    ],
+    [
+      "STRN",
+      "T10"
+    ],
+    [
+      "T10",
+      "C7"
+    ],
+    [
+      "C7",
+      "LSHO"
+    ],
+    [
+      "LSHO",
+      "CLAV"
+    ],
+    [
+      "CLAV",
+      "RSHO"
+    ],
+    [
+      "RSHO",
+      "C7"
+    ],
+    [
+      "RSHO",
+      "RUPA"
+    ],
+    [
+      "RUPA",
+      "RELB"
+    ],
+    [
+      "RELB",
+      "RMELB"
+    ],
+    [
+      "RELB",
+      "RFRM"
+    ],
+    [
+      "RFRM",
+      "RWRB"
+    ],
+    [
+      "RWRB",
+      "RWRA"
+    ],
+    [
+      "RFRM",
+      "RWRA"
+    ],
+    [
+      "RWRA",
+      "RFIN"
+    ],
+    [
+      "RFIN",
+      "RWRB"
+    ],
+    [
+      "RWRA",
+      "RELB"
+    ],
+    [
+      "RMELB",
+      "RUPA"
+    ],
+    [
+      "RSHO",
+      "RMELB"
+    ],
+    [
+      "LSHO",
+      "LUPA"
+    ],
+    [
+      "LPSI",
+      "RPSI"
+    ],
+    [
+      "RPSI",
+      "LASI"
+    ],
+    [
+      "LASI",
+      "RASI"
+    ],
+    [
+      "RASI",
+      "LPSI"
+    ],
+    [
+      "RPSI",
+      "RASI"
+    ],
+    [
+      "LPSI",
+      "LASI"
+    ],
+    [
+      "LASI",
+      "LTHI"
+    ],
+    [
+      "LTHI",
+      "LKNE"
+    ],
+    [
+      "LKNE",
+      "LMKNE"
+    ],
+    [
+      "LMKNE",
+      "LASI"
+    ],
+    [
+      "LTHI",
+      "LMKNE"
+    ],
+    [
+      "LKNE",
+      "LTIB"
+    ],
+    [
+      "RASI",
+      "RTHI"
+    ],
+    [
+      "RTHI",
+      "RKNE"
+    ],
+    [
+      "RKNE",
+      "RMKNE"
+    ],
+    [
+      "RMKNE",
+      "RASI"
+    ],
+    [
+      "RTHI",
+      "RMKNE"
+    ],
+    [
+      "RKNE",
+      "RTIB"
+    ],
+    [
+      "RHEE",
+      "RMANK"
+    ],
+    [
+      "RMANK",
+      "RANK"
+    ],
+    [
+      "RANK",
+      "RHEE"
+    ],
+    [
+      "RHEE",
+      "RTOE"
+    ],
+    [
+      "RTOE",
+      "RMANK"
+    ],
+    [
+      "RANK",
+      "RTOE"
+    ],
+    [
+      "RANK",
+      "RTIB"
+    ],
+    [
+      "RANK",
+      "RMKNE"
+    ],
+    [
+      "LUPA",
+      "LELB"
+    ],
+    [
+      "LELB",
+      "LMELB"
+    ],
+    [
+      "LMELB",
+      "LSHO"
+    ],
+    [
+      "LUPA",
+      "LMELB"
+    ],
+    [
+      "LELB",
+      "LFRM"
+    ],
+    [
+      "LFRM",
+      "LWRB"
+    ],
+    [
+      "LWRB",
+      "LWRA"
+    ],
+    [
+      "LWRA",
+      "LELB"
+    ],
+    [
+      "LWRA",
+      "LFRM"
+    ],
+    [
+      "LWRA",
+      "LFIN"
+    ],
+    [
+      "LFIN",
+      "LWRB"
+    ],
+    [
+      "RELB",
+      "RWRB"
+    ],
+    [
+      "LMKNE",
+      "LANK"
+    ],
+    [
+      "LANK",
+      "LKNE"
+    ],
+    [
+      "LTIB",
+      "LANK"
+    ],
+    [
+      "LANK",
+      "LMANK"
+    ],
+    [
+      "LMANK",
+      "LHEE"
+    ],
+    [
+      "LHEE",
+      "LTOE"
+    ],
+    [
+      "LTOE",
+      "LMANK"
+    ],
+    [
+      "LHEE",
+      "LANK"
+    ],
+    [
+      "LANK",
+      "LTOE"
+    ]
+  ]
+}

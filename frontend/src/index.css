@@ -1,0 +1,78 @@
+:root {
+  --bg-0: #0c0d12;
+  --bg-1: #14161f;
+  --bg-2: #1b1e2a;
+  --bg-3: #232736;
+  --line: #2c3145;
+  --text-0: #f2f4f8;
+  --text-1: #aab1c4;
+  --text-2: #6c7488;
+  --accent: #6c5ce7;
+  --accent-2: #8b7bff;
+  --green: #2ecc71;
+  --red: #ff5d6c;
+  --amber: #ffb74d;
+  --radius: 10px;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background: var(--bg-0);
+  color: var(--text-0);
+  font-size: 13px;
+  overflow: hidden;
+}
+
+button {
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--text-0);
+  background: var(--bg-3);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background .12s, border-color .12s;
+}
+button:hover { background: #2b3043; border-color: var(--accent); }
+button.primary { background: var(--accent); border-color: var(--accent); }
+button.primary:hover { background: var(--accent-2); }
+button:disabled { opacity: .4; cursor: not-allowed; }
+
+select, input[type=text], input[type=number] {
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--text-0);
+  background: var(--bg-2);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 6px 8px;
+}
+
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-thumb { background: #313749; border-radius: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+.muted { color: var(--text-2); }
+.row { display: flex; align-items: center; gap: 8px; }
+
+/* react-resizable-panels handles */
+.handle-v { width: 6px; cursor: col-resize; background: transparent; transition: background .12s; }
+.handle-v:hover, .handle-v[data-resize-handle-active] { background: var(--accent); }
+.handle-h { height: 6px; cursor: row-resize; background: transparent; transition: background .12s; }
+.handle-h:hover, .handle-h[data-resize-handle-active] { background: var(--accent); }
+
+/* uPlot drag-to-zoom selection */
+.u-select {
+  background: rgba(139, 123, 255, 0.22) !important;
+  border: 1px solid var(--accent-2);
+}
+.u-legend .u-series { cursor: pointer; }   /* X/Y/Z rows toggle on click */

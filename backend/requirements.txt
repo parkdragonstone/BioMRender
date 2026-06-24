@@ -1,0 +1,6 @@
+ezc3d==1.7.0
+numpy
+scipy
+fastapi
+uvicorn[standard]
+python-multipart

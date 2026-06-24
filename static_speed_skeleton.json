@@ -1,0 +1,174 @@
+{
+  "markerColor": "#2ecc71",
+  "skeletonColor": "#2ecc71",
+  "markerColors": {
+    "L_th1": "#ff8c42",
+    "L_th2": "#ff8c42",
+    "L_sh2": "#ff8c42",
+    "L_sh1": "#ff8c42",
+    "R_th1": "#ff8c42",
+    "R_th2": "#ff8c42",
+    "R_sh1": "#ff8c42",
+    "R_sh2": "#ff8c42",
+    "L_GT": "#ff5d6c",
+    "L_knee_L": "#ff5d6c",
+    "L_knee_M": "#ff5d6c",
+    "L_ankle_L": "#ff5d6c",
+    "L_ankle_M": "#ff5d6c",
+    "L_heel": "#ff5d6c",
+    "L_toe": "#ff5d6c",
+    "R_GT": "#3a87f0",
+    "R_knee_L": "#3a87f0",
+    "R_knee_M": "#3a87f0",
+    "R_ankle_L": "#3a87f0",
+    "R_ankle_M": "#3a87f0",
+    "R_heel": "#3a87f0",
+    "R_toe": "#3a87f0"
+  },
+  "connections": [
+    [
+      "L_Acromium",
+      "C7"
+    ],
+    [
+      "C7",
+      "R_Acromium"
+    ],
+    [
+      "R_Acromium",
+      "R_BACK"
+    ],
+    [
+      "R_BACK",
+      "L_BACK"
+    ],
+    [
+      "L_Acromium",
+      "L_BACK"
+    ],
+    [
+      "L_BACK",
+      "PSIS_M"
+    ],
+    [
+      "PSIS_M",
+      "PSIS_L"
+    ],
+    [
+      "L_ASIS",
+      "R_ASIS"
+    ],
+    [
+      "R_ASIS",
+      "PSIS_R"
+    ],
+    [
+      "PSIS_R",
+      "PSIS_M"
+    ],
+    [
+      "PSIS_L",
+      "L_ASIS"
+    ],
+    [
+      "PSIS_M",
+      "L_GT"
+    ],
+    [
+      "PSIS_M",
+      "R_GT"
+    ],
+    [
+      "R_GT",
+      "L_GT"
+    ],
+    [
+      "L_GT",
+      "L_knee_L"
+    ],
+    [
+      "L_knee_L",
+      "L_knee_M"
+    ],
+    [
+      "L_knee_M",
+      "L_GT"
+    ],
+    [
+      "R_GT",
+      "R_knee_L"
+    ],
+    [
+      "R_knee_M",
+      "R_GT"
+    ],
+    [
+      "R_knee_L",
+      "R_knee_M"
+    ],
+    [
+      "R_ankle_M",
+      "R_ankle_L"
+    ],
+    [
+      "R_ankle_L",
+      "R_knee_L"
+    ],
+    [
+      "R_knee_L",
+      "R_ankle_M"
+    ],
+    [
+      "R_ankle_M",
+      "R_heel"
+    ],
+    [
+      "R_heel",
+      "R_toe"
+    ],
+    [
+      "R_toe",
+      "R_ankle_L"
+    ],
+    [
+      "R_ankle_L",
+      "R_heel"
+    ],
+    [
+      "L_knee_L",
+      "L_ankle_L"
+    ],
+    [
+      "L_ankle_L",
+      "L_ankle_M"
+    ],
+    [
+      "L_ankle_M",
+      "L_knee_L"
+    ],
+    [
+      "L_ankle_M",
+      "L_heel"
+    ],
+    [
+      "L_heel",
+      "L_toe"
+    ],
+    [
+      "L_toe",
+      "L_ankle_L"
+    ],
+    [
+      "L_ankle_L",
+      "L_heel"
+    ],
+    [
+      "L_ankle_M",
+      "L_toe"
+    ],
+    [
+      "R_ankle_M",
+      "R_toe"
+    ]
+  ]
+}
