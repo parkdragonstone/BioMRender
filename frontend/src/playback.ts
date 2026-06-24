@@ -46,6 +46,12 @@ class Playback {
     this.emit()
   }
 
+  // step one (or `delta`) whole frame(s); pauses playback so the view holds
+  step(delta: number) {
+    if (this.playing) this.pause()
+    this.seek(Math.round(this.frame) + delta)
+  }
+
   setSpeed(s: number) { this.speed = s }
 
   private tick(now: number) {

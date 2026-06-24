@@ -55,6 +55,8 @@ export default function App() {
       if ((e.ctrlKey || e.metaKey) && (e.key === 'z' || e.key === 'Z')) { e.preventDefault(); actionsRef.current.undo() }
       else if ((e.ctrlKey || e.metaKey) && (e.key === 's' || e.key === 'S')) { e.preventDefault(); actionsRef.current.save() }
       else if (e.code === 'Space' && !typing) { e.preventDefault(); playback.toggle() }
+      else if (e.key === 'ArrowLeft' && !typing) { e.preventDefault(); playback.step(-1) }
+      else if (e.key === 'ArrowRight' && !typing) { e.preventDefault(); playback.step(1) }
     }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
